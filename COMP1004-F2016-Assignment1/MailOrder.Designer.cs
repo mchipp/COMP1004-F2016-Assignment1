@@ -43,9 +43,11 @@
             this.PrintButton = new System.Windows.Forms.Button();
             this.ClearButton = new System.Windows.Forms.Button();
             this.LanguageGroupBox = new System.Windows.Forms.GroupBox();
-            this.FrancaisRadioButton = new System.Windows.Forms.RadioButton();
+            this.FrenchRadioButton = new System.Windows.Forms.RadioButton();
             this.EnglishRadioButton = new System.Windows.Forms.RadioButton();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.SpanishRadioButton = new System.Windows.Forms.RadioButton();
+            this.GermanRadioButton = new System.Windows.Forms.RadioButton();
             this.LanguageGroupBox.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -159,7 +161,9 @@
             // 
             // LanguageGroupBox
             // 
-            this.LanguageGroupBox.Controls.Add(this.FrancaisRadioButton);
+            this.LanguageGroupBox.Controls.Add(this.GermanRadioButton);
+            this.LanguageGroupBox.Controls.Add(this.SpanishRadioButton);
+            this.LanguageGroupBox.Controls.Add(this.FrenchRadioButton);
             this.LanguageGroupBox.Controls.Add(this.EnglishRadioButton);
             this.LanguageGroupBox.Location = new System.Drawing.Point(113, 9);
             this.LanguageGroupBox.Name = "LanguageGroupBox";
@@ -168,16 +172,16 @@
             this.LanguageGroupBox.TabStop = false;
             this.LanguageGroupBox.Text = "Language";
             // 
-            // FrancaisRadioButton
+            // FrenchRadioButton
             // 
-            this.FrancaisRadioButton.AutoSize = true;
-            this.FrancaisRadioButton.Location = new System.Drawing.Point(6, 42);
-            this.FrancaisRadioButton.Name = "FrancaisRadioButton";
-            this.FrancaisRadioButton.Size = new System.Drawing.Size(65, 17);
-            this.FrancaisRadioButton.TabIndex = 1;
-            this.FrancaisRadioButton.TabStop = true;
-            this.FrancaisRadioButton.Text = "Francais";
-            this.FrancaisRadioButton.UseVisualStyleBackColor = true;
+            this.FrenchRadioButton.AutoSize = true;
+            this.FrenchRadioButton.Location = new System.Drawing.Point(6, 42);
+            this.FrenchRadioButton.Name = "FrenchRadioButton";
+            this.FrenchRadioButton.Size = new System.Drawing.Size(65, 17);
+            this.FrenchRadioButton.TabIndex = 1;
+            this.FrenchRadioButton.TabStop = true;
+            this.FrenchRadioButton.Text = "Francais";
+            this.FrenchRadioButton.UseVisualStyleBackColor = true;
             // 
             // EnglishRadioButton
             // 
@@ -198,6 +202,28 @@
             this.pictureBox1.Size = new System.Drawing.Size(77, 81);
             this.pictureBox1.TabIndex = 14;
             this.pictureBox1.TabStop = false;
+            // 
+            // SpanishRadioButton
+            // 
+            this.SpanishRadioButton.AutoSize = true;
+            this.SpanishRadioButton.Location = new System.Drawing.Point(84, 19);
+            this.SpanishRadioButton.Name = "SpanishRadioButton";
+            this.SpanishRadioButton.Size = new System.Drawing.Size(63, 17);
+            this.SpanishRadioButton.TabIndex = 2;
+            this.SpanishRadioButton.TabStop = true;
+            this.SpanishRadioButton.Text = "Spanish";
+            this.SpanishRadioButton.UseVisualStyleBackColor = true;
+            // 
+            // GermanRadioButton
+            // 
+            this.GermanRadioButton.AutoSize = true;
+            this.GermanRadioButton.Location = new System.Drawing.Point(84, 42);
+            this.GermanRadioButton.Name = "GermanRadioButton";
+            this.GermanRadioButton.Size = new System.Drawing.Size(62, 17);
+            this.GermanRadioButton.TabIndex = 3;
+            this.GermanRadioButton.TabStop = true;
+            this.GermanRadioButton.Text = "German";
+            this.GermanRadioButton.UseVisualStyleBackColor = true;
             // 
             // SalesBonusForm
             // 
@@ -245,9 +271,11 @@
         private System.Windows.Forms.Button PrintButton;
         private System.Windows.Forms.Button ClearButton;
         private System.Windows.Forms.GroupBox LanguageGroupBox;
-        private System.Windows.Forms.RadioButton FrancaisRadioButton;
+        private System.Windows.Forms.RadioButton FrenchRadioButton;
         private System.Windows.Forms.RadioButton EnglishRadioButton;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.RadioButton GermanRadioButton;
+        private System.Windows.Forms.RadioButton SpanishRadioButton;
     }
 }
 
