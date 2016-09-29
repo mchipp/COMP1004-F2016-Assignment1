@@ -177,10 +177,10 @@
             this.GermanRadioButton.AutoSize = true;
             this.GermanRadioButton.Location = new System.Drawing.Point(84, 42);
             this.GermanRadioButton.Name = "GermanRadioButton";
-            this.GermanRadioButton.Size = new System.Drawing.Size(62, 17);
+            this.GermanRadioButton.Size = new System.Drawing.Size(71, 17);
             this.GermanRadioButton.TabIndex = 3;
             this.GermanRadioButton.TabStop = true;
-            this.GermanRadioButton.Text = "German";
+            this.GermanRadioButton.Text = "Deutsche";
             this.GermanRadioButton.UseVisualStyleBackColor = true;
             // 
             // SpanishRadioButton
@@ -191,7 +191,7 @@
             this.SpanishRadioButton.Size = new System.Drawing.Size(63, 17);
             this.SpanishRadioButton.TabIndex = 2;
             this.SpanishRadioButton.TabStop = true;
-            this.SpanishRadioButton.Text = "Spanish";
+            this.SpanishRadioButton.Text = "Español";
             this.SpanishRadioButton.UseVisualStyleBackColor = true;
             // 
             // FrenchRadioButton
@@ -202,7 +202,7 @@
             this.FrenchRadioButton.Size = new System.Drawing.Size(65, 17);
             this.FrenchRadioButton.TabIndex = 1;
             this.FrenchRadioButton.TabStop = true;
-            this.FrenchRadioButton.Text = "Francais";
+            this.FrenchRadioButton.Text = "Français";
             this.FrenchRadioButton.UseVisualStyleBackColor = true;
             // 
             // EnglishRadioButton
