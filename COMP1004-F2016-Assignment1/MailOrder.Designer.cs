@@ -257,6 +257,7 @@
             this.Controls.Add(this.TotalHoursWorkedLabel);
             this.Controls.Add(this.EmployeeIDLabel);
             this.Controls.Add(this.EmployeesNameLabel);
+            this.MaximizeBox = false;
             this.Name = "SalesBonusForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Sales Bonus";

@@ -11,9 +11,9 @@ using System.Windows.Forms;
 using System.Globalization;
 
 /// <summary>
-/// Application: Assignment 1 - Shap Mail Order - Sales Bonus
+/// Application: Assignment 1 - Sharp Mail Order - Sales Bonus
 /// Author: Mark Chipp 200180985 "mark.chipp@live.ca, mark.chipp@mygeorgian.ca"
-/// Creation date: September 30, 2016
+/// Last edited: September 30, 2016
 /// Description: This application takes, as input, an employees name and ID, as well
 /// as their total hours worked, and the total sales of the business for a four week
 /// period. It will calculate the amount of sales bonus the employee has earned
@@ -161,6 +161,7 @@ namespace COMP1004_F2016_Assignment1
             PrintButton.Text = "Drucken";
             NextButton.Text = "Nächster";
         }
+
 
         // +++++++++++++++++++ Functions +++++++++++++++++++
 
