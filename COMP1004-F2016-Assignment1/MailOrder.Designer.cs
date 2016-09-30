@@ -117,6 +117,7 @@
             this.HoursWorkedTextBox.Name = "HoursWorkedTextBox";
             this.HoursWorkedTextBox.Size = new System.Drawing.Size(100, 20);
             this.HoursWorkedTextBox.TabIndex = 7;
+            this.HoursWorkedTextBox.Text = "0";
             // 
             // TotalSalesTextBox
             // 
@@ -124,11 +125,14 @@
             this.TotalSalesTextBox.Name = "TotalSalesTextBox";
             this.TotalSalesTextBox.Size = new System.Drawing.Size(100, 20);
             this.TotalSalesTextBox.TabIndex = 8;
+            this.TotalSalesTextBox.Text = "0";
             // 
             // SalesBonusTextBox
             // 
+            this.SalesBonusTextBox.BackColor = System.Drawing.Color.White;
             this.SalesBonusTextBox.Location = new System.Drawing.Point(113, 192);
             this.SalesBonusTextBox.Name = "SalesBonusTextBox";
+            this.SalesBonusTextBox.ReadOnly = true;
             this.SalesBonusTextBox.Size = new System.Drawing.Size(100, 20);
             this.SalesBonusTextBox.TabIndex = 9;
             // 
@@ -140,6 +144,7 @@
             this.CalculateButton.TabIndex = 10;
             this.CalculateButton.Text = "Calculate";
             this.CalculateButton.UseVisualStyleBackColor = true;
+            this.CalculateButton.Click += new System.EventHandler(this.CalculateButton_Click);
             // 
             // PrintButton
             // 
@@ -158,6 +163,7 @@
             this.ClearButton.TabIndex = 12;
             this.ClearButton.Text = "Clear";
             this.ClearButton.UseVisualStyleBackColor = true;
+            this.ClearButton.Click += new System.EventHandler(this.ClearButton_Click);
             // 
             // LanguageGroupBox
             // 
@@ -208,6 +214,7 @@
             // EnglishRadioButton
             // 
             this.EnglishRadioButton.AutoSize = true;
+            this.EnglishRadioButton.Checked = true;
             this.EnglishRadioButton.Location = new System.Drawing.Point(6, 19);
             this.EnglishRadioButton.Name = "EnglishRadioButton";
             this.EnglishRadioButton.Size = new System.Drawing.Size(59, 17);
@@ -247,6 +254,8 @@
             this.Controls.Add(this.EmployeesNameLabel);
             this.Name = "SalesBonusForm";
             this.Text = "Sales Bonus";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.SalesBonusForm_FormClosing);
+            this.Load += new System.EventHandler(this.SalesBonusForm_Load);
             this.LanguageGroupBox.ResumeLayout(false);
             this.LanguageGroupBox.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
